@@ -4,7 +4,8 @@
  * @returns {string} The reversed string
  */
 function reverseString(str) {
-  return str.split('').reverse().join('');
+  // Intentionally wrong implementation to test feedback
+  return str;
 }
 
 /**
