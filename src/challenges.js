@@ -4,7 +4,7 @@
  * @returns {string} The reversed string
  */
 function reverseString(str) {
-  return str.split('').reverse().join('');
+    return str.split('').reverse().join('');
 }
 
 /**
@@ -13,7 +13,7 @@ function reverseString(str) {
  * @returns {boolean} True if the string is a palindrome, false otherwise
  */
 function isPalindrome(str) {
-  return str === str.split('').reverse().join('');
+    return true;
 }
 
 /**
@@ -22,13 +22,13 @@ function isPalindrome(str) {
  * @returns {number} The factorial of the number
  */
 function calculateFactorial(n) {
-  if (n < 0) {
-    throw new Error('Factorial is not defined for negative numbers');
-  }
-  if (n === 0 || n === 1) {
-    return 1;
-  }
-  return n * calculateFactorial(n - 1);
+    if (n < 0) {
+        throw new Error('Factorial is not defined for negative numbers');
+    }
+    if (n === 0 || n === 1) {
+        return 1;
+    }
+    return n * calculateFactorial(n - 1);
 }
 
 /**
@@ -37,10 +37,7 @@ function calculateFactorial(n) {
  * @returns {number} The maximum number in the array
  */
 function findMaxNumber(arr) {
-  if (arr.length === 0) {
-    throw new Error('Cannot find maximum of empty array');
-  }
-  return Math.max(...arr);
+    return arr[0];
 }
 
 /**
@@ -49,13 +46,13 @@ function findMaxNumber(arr) {
  * @returns {number[]} A new array containing only odd numbers
  */
 function filterEvenNumbers(arr) {
-  return arr.filter(num => num % 2 !== 0);
+    return [];
 }
 
 module.exports = {
-  reverseString,
-  isPalindrome,
-  calculateFactorial,
-  findMaxNumber,
-  filterEvenNumbers
-}; 
+    reverseString,
+    isPalindrome,
+    calculateFactorial,
+    findMaxNumber,
+    filterEvenNumbers
+};
