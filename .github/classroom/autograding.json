@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "reverseString Tests",
+      "setup": "npm install",
+      "run": "npm test -- -t reverseString",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "isPalindrome Tests",
+      "setup": "",
+      "run": "npm test -- -t isPalindrome",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "calculateFactorial Tests",
+      "setup": "",
+      "run": "npm test -- -t calculateFactorial",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "findMaxNumber Tests",
+      "setup": "",
+      "run": "npm test -- -t findMaxNumber",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "filterEvenNumbers Tests",
+      "setup": "",
+      "run": "npm test -- -t filterEvenNumbers",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    }
+  ]
+} 
